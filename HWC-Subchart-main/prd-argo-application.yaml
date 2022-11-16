@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: prd-hwc-subchart
+  namespace: argo
+spec:
+  project: default
+  source:
+    repoURL: 'https://github.com/participant-fifteen/hwc-subchart'
+    path: prd
+    targetRevision: HEAD
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: hwc-prd
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

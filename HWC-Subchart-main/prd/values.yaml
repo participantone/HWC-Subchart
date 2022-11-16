@@ -1,0 +1,4 @@
+hello-world-configmap:
+    replicaCount: 5
+    app:
+      content: "honey this is production!"

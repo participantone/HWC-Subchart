@@ -1,0 +1,4 @@
+hello-world-configmap:
+    replicaCount: 4
+    app:
+      content: "a test world"

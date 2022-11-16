@@ -1,0 +1,4 @@
+hello-world-configmap:
+    replicaCount: 3
+    app:
+      content: "Hatseflats!"
