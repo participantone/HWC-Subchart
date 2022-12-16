@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/participant-four/hwc-subchart'
+    repoURL: 'https://github.com/participant-one/hwc-subchart'
     path: dev
     targetRevision: HEAD
   destination:
