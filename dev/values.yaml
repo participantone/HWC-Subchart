@@ -1,4 +1,4 @@
 hello-world-configmap:
     replicaCount: 8
     app:
-      content: "it is a def world"
+      content: "It is a brave automated world!!!!!!"
